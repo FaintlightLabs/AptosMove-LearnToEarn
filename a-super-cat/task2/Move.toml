@@ -1,0 +1,15 @@
+[package]
+name = "task2"
+version = "1.0.0"
+authors = []
+
+[addresses]
+coin_token = "0x5bd82e4f0b7cdb98c2dad2ebaa51cadfe6819be41fec57ce8036495865637735"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
