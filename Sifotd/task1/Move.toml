@@ -1,0 +1,15 @@
+[package]
+name = "task1"
+version = "1.0.0"
+authors = []
+
+[addresses]
+hello_world = "0x90faf705d5df4e84345784d7d74f656ac2bd16eb4dee3d5e79de7e734597e151"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
