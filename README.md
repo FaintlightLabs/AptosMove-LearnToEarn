@@ -129,6 +129,26 @@
    ```
 5. **编译并publish 合约**
    - 可以先使用 `aptos init` 创建一个私钥账户，并根据提示领取测试币
+   - 在Move.toml里面[addresses]下面加上hello_world="<你上一步初始化的地址>"
+   ```
+    [package]
+    name = "task1"
+    version = "1.0.0"
+    authors = []
+
+    [addresses]
+    hello_world="<你上一步初始化的地址>"
+    
+    [dev-addresses]
+
+    [dependencies.AptosFramework]
+    git = "https://github.com/aptos-labs/aptos-framework.git"
+    rev = "mainnet"
+    subdir = "aptos-framework"
+
+    [dev-dependencies]
+
+   ```
    - 使用 `aptos move publish` 可以部署代码
    - 将在部署代码前替换下方的 <在 Build3 领取任务的钱包地址> 
    - 将部署代码后的 txn hash 保存到当前代码中 , 替换 <TXN Hash>
