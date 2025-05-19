@@ -1,0 +1,15 @@
+[package]
+name = "Coin_suiceber"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Coin_suiceber = "0xf7f3336ba7a88ff551c4f6ccbdce0e89adae94baa9dc9b9f505aed68560202fc"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
