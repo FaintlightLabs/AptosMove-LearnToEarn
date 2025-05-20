@@ -1,0 +1,15 @@
+[package]
+name = "task3"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyAddr="0x1aa098ae614b2a6dcca43797d1fe132c0a3dec0c50f7125ae8e611abbbd03a83"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
