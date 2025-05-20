@@ -1,0 +1,15 @@
+[package]
+name = "coin_factory"
+version = "1.0.0"
+authors = []
+
+[addresses]
+coin_factory="0xdad072a3770406371a1c65fe419269c8c8d3148be0a57c79f8305b2087b017f3"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
