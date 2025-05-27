@@ -1,0 +1,9 @@
+[package]
+name = "fa_suiceber"
+version = "1.0.0"
+
+[addresses]
+suiceber = "0xf7f3336ba7a88ff551c4f6ccbdce0e89adae94baa9dc9b9f505aed68560202fc"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "testnet" }
